@@ -32,7 +32,7 @@ int main() {
         printf("Enter 0 or 1 to STOP\nEnter the NFL score: ");
         scanf("%d", &score);
         
-        //stop the program if less or equal q
+        //stop the program if less or equal than 1
         if (score <= 1) {
             printf("Program terminated.\n");
             break;
