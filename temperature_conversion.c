@@ -66,10 +66,10 @@ int main() {
     //show converted temperature
     switch (output_scale) {
         case 1:
-            printf("Converted temperature: %.2f°C\n", temp_converted);
+            printf("Converted temperature: %.2fC\n", temp_converted);
             break;
         case 2:
-            printf("Converted temperature: %.2f°F\n", temp_converted);
+            printf("Converted temperature: %.2fF\n", temp_converted);
             break;
         case 3:
             printf("Converted temperature: %.2fK\n", temp_converted);
